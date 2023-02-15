@@ -1,0 +1,104 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+class Main {
+  private static Scanner cin = new Scanner(System.in); 
+  
+  public static void main(String[] args) {
+    cin.useLocale(Locale.US);
+
+
+// ---------------------Questão 25-----------------//
+    //System.out.println("Digite o tamanho do vetor: ");
+		//int size = cin.nextInt();
+		
+		//int vetor[] = new int[size];
+		
+		//System.out.println("Digite o valor para colocar no vetor: ");
+		//for(int i = 0; i<size; ++i) {
+			//vetor[i] = cin.nextInt();
+		//}
+		
+		//exibirVetor(vetor);
+		
+	
+	//}
+	//private static void exibirVetor(int[] v) {
+		//int size = v.length;
+		//for(int i = 0; i<size; ++i) {
+			//System.out.println(v[i] + " ");
+	//	}
+
+  //}
+// ---------------------Questão 26-----------------//
+    //System.out.println("Digite o numero de linhas: ");
+		//int linhas = cin.nextInt();
+		
+		//System.out.println("Digite o numero de colunas: ");
+	//	int colunas = cin.nextInt();
+		
+		
+		//int matriz[][] = new int [linhas][colunas];
+		
+	
+	//	System.out.println("Digite os valores que deseja colocar na matriz: ");
+		//for(int l = 0; l<linhas; l++) 
+			//for(int c =0; c<colunas; c++) {
+				//matriz[l][c] = cin.nextInt();
+			//}
+		
+	//	exibirMatriz(matriz);	
+		
+	//}
+//}
+	//private static void exibirMatriz(int[][] m) {
+		//int linhas = m.length;
+		//System.out.println("linhas = " + linhas);
+		
+		//int colunas = m[0].length;
+		//System.out.println("colunas = " + colunas);
+				
+		//for (int l=0; l<linhas; l++) 
+		//{
+			//System.out.println();
+			
+			//for (int c=0; c<colunas; c++) {
+				//System.out.print(m[l][c] + "\t");
+		//	}
+  //}
+
+// ---------------------Questão 27-----------------//
+    //System.out.println("Digite o tamanho do vetor: ");
+		//int size = cin.nextInt();
+		
+		//int vetor[] = new int[size];
+		
+		//System.out.println("Digite " + size + " valores: ");
+		//for(int i=0; i<size; ++i) {
+			//vetor[i] = cin.nextInt();
+		//}
+		
+		//System.out.println("O valores do vetor são: ");
+		//exibirvetor(size);
+		
+		
+		
+		//funInversa(size);
+		
+	//}
+	//private static void exibirvetor(int v) {
+		
+		//int size = v.length;
+		
+		//for (int i=0; i<size; i++) {
+			//System.out.print(v[i] + " ");
+		//}
+		
+	//}
+
+    
+	//private static void funInversa(int s) {
+		// TODO Auto-generated method stub
+  //}
+  }
+}
